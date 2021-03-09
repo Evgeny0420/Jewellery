@@ -1,0 +1,36 @@
+.footer {
+  background-color: $basic-additional-color;
+  box-sizing: border-box;
+  padding: 100px $desktop-container-padding;
+  display: flex;
+  align-items: center;
+}
+
+.footer__wrapper-form {
+  h2 {
+    font-family: $font-cormorant-garamond;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 130%;
+    color: $basic-color;
+  }
+
+  p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: $text-additional-color;
+  }
+}
+
+@media ($tablet-widths-max) {
+  .footer {
+    padding: 0 $tablet-container-padding;
+  }
+}
+
+@media ($mobile-widths-only) {
+  .footer {
+    padding: 0 $mobile-container-padding;
+  }
+}

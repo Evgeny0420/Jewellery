@@ -1,0 +1,38 @@
+.header {
+  box-sizing: border-box;
+  padding: 13px $desktop-container-padding 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin: 17px 0 0;
+}
+
+.header__list-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.header__item-menu {
+  a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: $text-color;
+  }
+}
+
+@media ($tablet-widths-max) {
+  .header {
+    padding: 13px $tablet-container-padding 19px;
+  }
+}
+
+@media ($mobile-widths-only) {
+  .header {
+    padding: 13px $mobile-container-padding 19px;
+  }
+}

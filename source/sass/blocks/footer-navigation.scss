@@ -1,0 +1,17 @@
+.footer-navigation {
+  display: flex;
+}
+
+.footer-navigation__list {
+  list-style-type: none;
+}
+
+.footer-navigation__item {
+  a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration: none;
+    color: $basic-color;
+  }
+}
